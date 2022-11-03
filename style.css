@@ -1,0 +1,50 @@
+:root {
+    --rosinha: #FF5C82;
+    --quaseWhite: #fffcfc;
+    --roxinho: #691046;
+    --cinzaBom: #282828
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--rosinha);
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+h2 {
+    color: var(--quaseWhite);
+}
+
+section {
+    width: 60%;
+    max-width: 600px;
+}
+
+section p {
+    color: var(--quaseWhite);
+    font-weight: bold;
+}
+
+section details summary {
+    background-color: var(--roxinho);
+    padding: 2%;
+    border-bottom: 2px solid var(--quaseWhite);
+    color: var(--quaseWhite);
+    font-weight: 600;
+}
+
+section details p {
+    background-color: var(--cinzaBom);
+    color: var(--quaseWhite);
+    padding: 2%;
+}
